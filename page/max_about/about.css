@@ -1,0 +1,221 @@
+/*单banner*/
+div.about_banner{
+    height: 300px;
+    background: url(../images/new_banner_1.png) no-repeat center center;
+    z-index: 1;
+    position: relative;
+}
+div.about_banner .row{
+    text-align: left;
+    color: #fff;
+    margin-top: 45px;
+}
+div.about_banner .row hr{
+    margin-left: 0px;
+    border-top: 3px solid #fe6755;
+    width: 38px;
+}
+div.about_banner .row h2{
+    font-size: 40px;
+    margin-top: 57px;
+    margin-bottom: 30px;
+}
+div.about_banner .row div.infoma{
+    font-size: 32px;
+    color: #fff;
+    line-height: 68px;
+}
+div.about_banner .row .searchButton{
+    margin-top:40px;
+}
+
+/*div.info_bg*/
+div.info_bg{
+    height: 599px;
+    background: url(../images/about_info_bg.png) no-repeat center center;
+}
+div.info_bg .phone_row{
+    display: none;
+}
+div.info_bg .col-md-6{
+    color: #ffffff;
+    text-align: left;
+}
+div.info_bg .introInfo{
+    line-height: 40px;
+    margin-top: 140px;
+}
+div.info_bg .first{
+	font-size: 16px;
+    margin-bottom: 30px;
+}
+div.info_bg .two{
+	font-size: 16px;
+}
+div.info_bg .col-md-6 img{
+    width: 73%;
+    margin-left: 102px;
+    margin-top: 148px;
+}
+
+
+/*公司介绍*/
+div.companyIntro{
+    background-color: #f9f9f9;
+}
+div.companyIntro .companyList{
+    padding-top: 46px;
+    margin-bottom: 120px;
+}
+div.companyIntro .companyList .companyInfo span{
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+div.companyIntro .total_company{
+    font-size: 20px;
+    font-weight: bold;
+}
+div.address{
+    font-size: 17px;
+    color: #999999;
+    margin-top: 15px;
+    height: 62px;
+    padding: 5px;
+    /*border: 1px solid #eeeeee;*/
+    margin-top: 15px;
+    border-radius: 5px;
+}
+div.companyIntro .address img{
+    margin-top: -8px;
+}
+
+/*团队介绍*/
+div.team{
+    margin-top: 45px;
+}
+div.team .left{
+    text-align: left;
+}
+div.team .left h2{
+    font-size: 34px;
+}
+div.team .left hr{
+    margin-left: 0px;
+    border-top: 3px solid #fb1202;
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.team .left .team_intro{
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+}
+div.team .ceo{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+div.team .ceo img{
+    box-shadow: 0px -5px 20px #83cfdf;
+}
+div.team .ceo .ceo_intro{
+    font-size: 16px;
+    color: #666666;
+}
+
+/*资质证书*/
+div.certificate .cer_infomation{
+    text-align: left;
+    margin-bottom: 20px;
+}
+div.certificate .cer_intro{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 30px;
+}
+div.certificate .cer_list{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 25px;
+    line-height: 45px;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.about_banner{
+        height: 200px;
+        background: url(../images/phone_aboutus_bg.png) no-repeat center center;
+    }
+    div.about_banner .row div.infoma {
+        margin-top: 25px;
+    }
+    div.about_banner .row h2 {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 165px;
+    }
+    div.info_bg {
+        height: 582px;
+    }
+    div.info_bg .phone_row{
+        display: block;
+    }
+    div.info_bg .pc_row{
+        display: none;
+    }
+    div.info_bg .col-md-6 img {
+        display: none;
+    }
+    div.info_bg .first {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    div.info_bg .two {
+        font-size: 13px;
+    }
+    div.info_bg .introInfo {
+        line-height: 25px;
+        margin-top: 90px;
+    }
+    div.companyIntro .companyList .companyInfo span{
+        font-size: 16px;
+    }
+    div.companyIntro .address img {
+        width: 20px;
+    }
+    div.companyIntro .total_company {
+        font-size: 16px;
+    }
+    div.companyIntro .companyList {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    div.address {
+        font-size: 13px;
+        height: 34px;
+        padding: 0px;
+        margin-top: 5px;
+        border-radius: 7px;
+    }
+    div.map .welfare .join h2{
+        font-size: 18px;
+    }
+    .map .welfare {
+        height: 410px;
+        /*background: url(../images/welfare.png) no-repeat center top /auto 410px;*/
+    }
+    .map .welfare .container span {
+        font-size: 13px;
+    }
+    .map .welfare img {
+        width: 30%;
+    }
+    .companyList .companyInfo{
+        margin-bottom: 25px;
+    }
+
+}
+

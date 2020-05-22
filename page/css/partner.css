@@ -1,0 +1,71 @@
+/*合作伙伴*/
+div.cooperativePartner{
+    height: 770px;
+}
+div.cooperativePartner .title_Info{
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+div.cooperativePartner .title_Info p{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #828a99;
+}
+div.cooperativePartner .title_Info h2{
+    font-family: 微软雅黑;
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+div.cooperativePartner .swiper-wrapper{
+    margin-bottom: 100px;
+}
+div.cooperativePartner .swiper-slide{
+    background-color: rgba(0,0,0,0);
+    padding: 30px;
+    border-bottom: 1px dashed #5d7088;
+    border-left: 1px dashed #5d7088;
+}
+div.cooperativePartner .swiper-wrapper .slide_left{
+    border-left: 0px;
+}
+div.cooperativePartner .swiper-wrapper .slide_buttom{
+    border-bottom: 0px;
+}
+div.cooperativePartner .swiper-slide img{
+    width: 70%;
+}
+div.cooperativePartner .swiper-slide div{
+    background-color: #fff;
+    line-height: 96px;
+    height: 96px;
+    width: 230px;
+    border-radius: 10px;
+}
+div.cooperativePartner .swiper-slide div:hover{
+    background-color: rgba(255,255,255,1);
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.cooperativePartner .swiper-slide div {
+        line-height: 80px;
+        height: 80px;
+        width: 164px;
+    }
+    div.cooperativePartner .swiper-slide img {
+        width: 80%;
+    }
+    div.cooperativePartner .title_Info h2 {
+        font-size: 18px;
+    }
+    div.cooperativePartner .title_Info {
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
+    div.cooperativePartner {
+        height: 645px;
+    }
+}

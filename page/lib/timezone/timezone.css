@@ -1,0 +1,134 @@
+.jazz-timeline-wrapper, .jazz-timeline-wrapper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+.jazz-timeline-wrapper {
+    width: 100%;
+    margin: 4em auto;
+    font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+.jazz-timeline {
+    position: relative
+}
+.jazz-timeline:before, .multiline-timeline .timeline-post:before {
+    content: "";
+    background-color: #C1C1C1;
+    background-image: -webkit-linear-gradient(top, #EAF0F2 0%, #C1C1C1 8%, #C1C1C1 92%, #EAF0F2 100%);
+    background-image: -moz-linear-gradient(top, #EAF0F2 0%, #C1C1C1 8%, #C1C1C1 92%, #EAF0F2 100%);
+    background-image: -ms-linear-gradient(top, #EAF0F2 0%, #C1C1C1 8%, #C1C1C1 92%, #EAF0F2 100%);
+    margin-left: -1px;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    left: 50%;
+}
+.jazz-timeline .timeline-post {
+    padding: 0 30px 5px 0;
+    width: 50%;
+}
+.jazz-timeline .timeline-post:nth-child(even) {
+    margin-left: 50%;
+    padding: 0 0 5px 30px
+}
+.jazz-timeline .timeline-post .timeline-meta {
+    left: 50%;
+    color: #999;
+    margin: 28px 0 0 50px;
+    position: absolute;
+    font-weight: 500
+}
+.jazz-timeline .timeline-post:nth-child(even) .timeline-meta {
+    left: auto;
+    margin: 25px 50px 0 0;
+    text-align: right;
+    right: 50%
+}
+.jazz-timeline .timeline-post .timeline-meta .meta-details {
+    color: #6A7686
+}
+.jazz-timeline .timeline-post .timeline-icon {
+    background: #fff;
+    line-height: 70px;
+    position: absolute;
+    text-align: center;
+    margin: 22px 0 0 -35px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #171717;
+    font-size: 18px;
+    height: 70px;
+    width: 70px;
+    left: 50%;
+    z-index: 10
+}
+.jazz-timeline .timeline-post .icon-dot-full, .jazz-timeline.one-sided .timeline-post .icon-dot-full {
+    background: #C1C1C1;
+    margin: 30px 0 0 -7px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 14px;
+    width: 14px
+}
+.jazz-timeline .timeline-post .timeline-content {
+    background: #fff;
+    position: relative;
+    border: 1px solid #fff;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px
+}
+.jazz-timeline .timeline-post .timeline-content .content-details{
+    text-indent: 25px;
+    text-align: left;
+}
+.jazz-timeline .timeline-post.no-padding .timeline-content {
+    padding: 0
+}
+.jazz-timeline .timeline-post .timeline-content .content-title {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    margin: 0 0 10px;
+}
+.jazz-timeline .timeline-post .timeline-content:before, .jazz-timeline .timeline-post .timeline-content:after {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-left-color: #fff;
+    position: absolute;
+    right: -30px;
+    top: 26px
+}
+.jazz-timeline .timeline-post:nth-child(even) .timeline-content:before {
+    border: 15px solid transparent;
+    border-right-color: #fff;
+    left: -30px;
+    right: auto
+}
+.jazz-timeline .timeline-post:nth-child(even) .timeline-content:after {
+    border: 14px solid transparent;
+    border-right-color: #fff;
+    left: -30px;
+    right: auto;
+}
+.jazz-timeline .black-post .timeline-content {
+    border: 1px solid #2F3949;
+}
+
+.jazz-timeline .black-post .timeline-content:after, .jazz-timeline .black-post .timeline-content:before {
+    border-left-color: #2F3949
+}
+.jazz-timeline .black-post:nth-child(even) .timeline-content:after, .jazz-timeline .black-post:nth-child(even) .timeline-content:before, .jazz-timeline.one-sided .black-post .timeline-content:after, .jazz-timeline.one-sided .black-post .timeline-content:before, .jazz-timeline.one-sided .black-post:nth-child(even) .timeline-content:after, .jazz-timeline.one-sided .black-post:nth-child(even) .timeline-content:before {
+    border: 15px solid transparent;
+    border-right-color: #2F3949
+}

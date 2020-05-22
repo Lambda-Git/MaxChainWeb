@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  font-family: "微软雅黑";
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+/*按钮*/
+button.com_but{
+  height: 52px;
+  width: 178px;
+  font-family: 微软雅黑;
+  font-size: 16px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-color: #acb3bf;
+  background-color: #ffffff;
+  border-radius: 55px;
+  filter:chroma(color=#000000);
+  outline: 0;
+}
+
+/*轮播图下面的按钮css*/
+.container .swiper-pagination-bullet-active {
+  background: #5a6b83;
+}
+.container .swiper-pagination-bullet {
+  width: 32px;
+  height: 3px;
+  border-radius: 0%;
+  background: #fd4e01;
+}
+
+
+/*模块标题同样css*/
+div.commons{
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+div.commons .common_title{
+  font-family: 微软雅黑;
+  font-size: 34px;
+  color: #0f1833;
+  margin-bottom: 30px;
+}
+div.commons .common_info{
+  font-family: 微软雅黑;
+  color: #828a99;
+  font-size: 14px;
+}
+span.pc_show a{
+  color: #fff;
+}
+span.pc_show a:hover{
+  text-decoration: none;
+  color: #9a9696;
+}
+span.phone_show a{
+  color: #fff;
+}
+span.phone_show a:hover{
+  text-decoration: none;
+  color: #9a9696;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+  div.commons .common_title{
+    font-size: 18px;
+  }
+  div.commons {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+}

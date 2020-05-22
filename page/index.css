@@ -1,0 +1,506 @@
+/*新的banner轮播图*/
+div.swiper-wrapper .first_banner{
+    height: 510px;
+    background: url(images/maxchainbg_1.png) no-repeat center center;
+}
+div.swiper-wrapper .second_banner{
+    height: 510px;
+    background: url(images/new_banner_2.png) no-repeat center center;
+}
+div.swiper-wrapper .three_banner{
+    height: 510px;
+    background: url(images/maxchainbg_3.png) no-repeat center center;
+}
+div.swiper-wrapper .four_banner{
+    height: 510px;
+    background: url(images/new_banner_3.png) no-repeat center center;
+}
+div.swiper-wrapper .container .pc_banner{
+    text-align: left;
+    font-family: 微软雅黑;
+    color: #fff
+}
+div.swiper-wrapper .swiper-slide section.container .row{
+    margin-top: 110px;
+}
+div.swiper-wrapper .container .pc_banner h1{
+    font-size: 36px;
+}
+div.swiper-wrapper .container .pc_banner h2{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.swiper-wrapper .container .pc_banner span{
+    font-size: 16px;
+}
+div.swiper-wrapper .container .pc_banner div.searchButton{
+    margin-top: 30px;
+}
+div.swiper-wrapper .pc_banner hr{
+    border-top: 3px solid #fe6755;
+    margin-left: 0px;
+    width: 38px;
+}
+/*轮播图下面的按钮css*/
+div.index_banner .swiper-pagination-bullet-active {
+    background: #5a6b83;
+}
+div.index_banner .swiper-pagination-bullet {
+    width: 35px;
+    height: 4px;
+    border-radius: 0%;
+    background: #fd4e01;
+}
+div.index_banner .swiper-button-next{
+    position: absolute;
+    top: 0%;
+    margin-top: 0px;
+    width: 150px;
+    height: 610px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:none;
+}
+div.index_banner .swiper-button-next:hover{
+    background: rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+}
+div.index_banner .swiper-button-prev{
+    position: absolute;
+    top: 0%;
+    margin-top: 0px;
+    width: 150px;
+    height: 610px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:none;
+}
+div.index_banner .swiper-button-prev:hover{
+    background: rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+}
+
+/*div.maxchain 平台介绍+产品*/
+div.infoList .left div{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #828a99;
+}
+div.infoList .left .col-md-10{
+    text-align: left;
+}
+div.infoList .left .row{
+    margin-bottom: 40px;
+}
+div.infoList .right img{
+    margin-top: -15px;
+    margin-left: 90px;
+    width: 80%;
+}
+div.maxchainIntro .product .title{
+     text-align:center;
+     font-family: 微软雅黑;
+     font-size: 34px;
+     color: #0f1833;
+     margin-bottom: 30px;
+ }
+.searchMore .com_but{
+    margin-bottom: 180px;
+}
+div.maxchainIntro .searchMore{
+    background: url(images/probg.png) no-repeat;
+}
+div.productList .swiper-container{
+    height: 360px;
+}
+div.productList .swiper-slide{
+    height: 310px;
+    border: 1px solid #dbe0e5;
+}
+div.productList .swiper-slide .pro_imgs{
+    height: 60px;
+}
+div.productList .swiper-slide .pro_imgs img{
+    height: 100%;
+}
+div.productList .swiper-slide-actve{
+    border: 1px solid #fa0002;
+}
+div.productList .swiper-slide hr.active{
+    border-top: 2px solid #fa0002;
+}
+div.productList .swiper-slide hr{
+    width:35px;
+    height:1px;
+    border:none;
+    border-top:2px solid #444444;
+}
+div.maxchainIntro .phone_img{
+    display: none;
+}
+div.maxchainIntro .productList .swiper-slide ul li{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+div.maxchainIntro .productList .swiper-slide ul li p{
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+div.maxchainIntro .productList .swiper-slide ul li .infomation{
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+div.maxchainIntro .productList .swiper-slide ul{
+    margin-right: 35px;
+    padding-top: 20px;
+}
+div.maxchainIntro .productList .swiper-slide ul li .title_info{
+    width: 300px;
+}
+div.maxchainIntro .productList .swiper-slide ul li .title_info p{
+    margin-bottom: 25px;
+    height: 40px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.maxchainIntro .productList .swiper-slide ul li .title_info .infomation{
+    overflow: hidden;
+    height: 65px;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+/*技术优势*/
+.TechnicalAdvantage{
+    height: 850px;
+}
+div.TechnicalAdvantage .row .intro{
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div.TechnicalAdvantage .row .intro p{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #17294c;
+}
+div.TechnicalAdvantage .row .intro span{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #828a99;
+
+}
+div.TechnicalAdvantage .row .col-xs-6{
+    height: 280px;
+}
+div.TechnicalAdvantage .row .movein{
+    -webkit-box-shadow: 0 0 10px #fff3f3;
+    box-shadow: 0 0 35px #fed9d9;
+}
+div.TechnicalAdvantage .row .imgInfo{
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+div.TechnicalAdvantage .row .imgInfo img{
+    transition:width 2s, height 2s;
+    -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+    -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+    -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+div.TechnicalAdvantage .row .imgInfo img:hover{
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg); /* Firefox 4 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -o-transform:rotate(360deg); /* Opera */
+}
+
+/*解决方案*/
+div.solution{
+    background-color:#ebf7ff;
+    height: 730px;
+}
+div.solution .typeList .phone_row{
+    display: none;
+}
+div.solution li{
+    list-style-type:none;
+}
+div.solution hr{
+    width: 35px;
+    height: 1px;
+    border: none;
+    border-top: 2px solid #6f6f6f;
+    margin-left: 0px;
+}
+div.solution .typeList{
+    margin-top: 40px;
+}
+div.solution .row ul li span{
+    font-family: 微软雅黑;
+    font-size: 15px;
+}
+div.solution .row ul li p{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.solution .solution_info{
+    text-align: left;
+}
+div.solution .middleInfo{
+    line-height: 30;
+}
+
+div.solution .middle_img{
+    width: 100%;
+}
+div.solution ul li .row{
+    margin-bottom: 40px;
+}
+div.solution .col-md-4{
+    margin-top: 15px;
+}
+div.enterpriseInfo .swiper-container .swiper-pagination-bullets{
+    bottom: 35px;
+}
+
+/*企业资讯*/
+div.enterpriseInfo{
+    height: 770px;
+    background: url(images/enterpriseInfo_bg.png) no-repeat;
+}
+.enterpriseInfo .swiper-slide h2 a{
+    color: black;
+}
+.enterpriseInfo .swiper-wrapper{
+    margin-bottom: 80px;
+}
+.enterpriseInfo .swiper-slide{
+    height: 450px;
+}
+.enterpriseInfo .swiper-slide h2{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    overflow: hidden;
+    height: 18px;
+}
+.enterpriseInfo .swiper-slide p{
+    height: 50px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+.enterpriseInfo .swiper-slide ul li{
+    list-style-type:none;
+}
+.enterpriseInfo .swiper-slide hr{
+    width: 35px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #6f6f6f;
+    margin-top: 14.5px;
+    float: left;
+}
+.enterpriseInfo .swiper-slide .date_link{
+    margin-top: 80px;
+}
+.enterpriseInfo .swiper-slide .date{
+    float: left;
+}
+.enterpriseInfo .swiper-slide .link{
+    text-align: right;
+}
+.enterpriseInfo .swiper-slide ul{
+    margin-right: 30px;
+    text-align: left
+}
+.enterpriseInfo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.enterpriseInfo .swiper-slide .baseimg{
+    width: 290px;
+    height: 192px;
+}
+
+
+ne-header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+.top{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 64px;
+    z-index: 10000;
+}
+div.modular{
+    margin-top: 128px;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    /*banner*/
+    div.index_banner .swiper-button-next{
+        display: none;
+    }
+    div.index_banner .swiper-button-prev{
+        display: none;
+    }
+    div.swiper-wrapper .first_banner{
+        height: 300px;
+        background: url(images/phone_headerBg_2.png) no-repeat center center;
+    }
+    div.swiper-wrapper .second_banner{
+        height: 300px;
+        background: url(images/phone_headerBg_1.png) no-repeat center center;
+    }
+    div.swiper-wrapper .three_banner{
+        height: 300px;
+        background: url(images/phone_headerBg_3.png) no-repeat center center;
+    }
+    div.swiper-wrapper .four_banner{
+        height: 300px;
+        background: url(images/phone_headerBg_4.png) no-repeat center center;
+    }
+    div.swiper-wrapper .swiper-slide section.container .row {
+        margin-top: 110px;
+    }
+    div.swiper-wrapper .container .pc_banner span {
+        display: none;
+    }
+    div.swiper-wrapper .container .pc_banner h1 {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    div.swiper-wrapper .container .pc_banner h2 {
+        font-size: 18px;
+    }
+
+    /*基础产品*/
+    div.maxchainIntro .phone_img{
+        display: block;
+    }
+    div.maxchainIntro .phone_img img{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    div.maxchainIntro .infoList .right{
+        display: none;
+    }
+    div.maxchainIntro .productList .swiper-slide ul li .title_info {
+        width: 228px;
+    }
+    div.maxchainIntro .productList .swiper-slide ul li .title_info .infomation {
+         width: 228px;
+    }
+    div.maxchainIntro .productList .swiper-slide ul li .title_info p {
+        width: 228px;
+    }
+
+    /*技术优势*/
+    .TechnicalAdvantage {
+        height: 990px;
+    }
+    div.TechnicalAdvantage .row .col-xs-6 {
+        height: 210px;
+        margin-bottom: 10px;
+    }
+    div.TechnicalAdvantage .row .intro {
+         padding-left: 0px;
+         padding-right: 0px;
+    }
+    div.TechnicalAdvantage .row .intro p {
+        height: 25px;
+    }
+    div.TechnicalAdvantage .row .intro p {
+        font-size: 14px;
+    }
+    div.TechnicalAdvantage .row .intro span {
+        font-size: 13px;
+    }
+    div.TechnicalAdvantage .row .imgInfo {
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    div.TechnicalAdvantage .row .imgInfo img {
+        height: 60px;
+    }
+
+    /*解决方案*/
+    div.solution .typeList ul.left_{
+        margin-left: -40px;
+    }
+    div.solution .typeList .pc_row{
+        display: none;
+    }
+    div.solution .typeList .phone_row{
+        display: block;
+    }
+    div.solution .middleInfo {
+        margin-top: -22px;
+        line-height: 0;
+        margin-bottom: 13px;
+    }
+    div.solution {
+        height: 1015px;
+    }
+    div.solution .col-md-4 {
+         margin-top: 0px;
+    }
+    div.solution .middle_img {
+        width: 50%;
+    }
+    div.solution .row ul li p {
+        font-size: 15px;
+    }
+    div.solution .row ul li span {
+        font-size: 14px;
+    }
+
+    /*企业资讯*/
+    div.enterpriseInfo {
+        height: 541px;
+    }
+    .enterpriseInfo .swiper-slide {
+        margin-left: -5px;
+    }
+    .enterpriseInfo .swiper-slide .baseimg {
+        width: 238px;
+        height: 152px;
+    }
+    .enterpriseInfo .swiper-slide h2 {
+        font-size: 15px;
+    }
+    .enterpriseInfo .swiper-slide p {
+        font-size: 13px;
+    }
+    .enterpriseInfo .swiper-slide ul {
+        margin-right: 0px;
+    }
+    .enterpriseInfo .swiper-slide {
+        height: 370px;
+    }
+    .enterpriseInfo .swiper-slide .date_link {
+        margin-top: 37px;
+    }
+
+
+
+}

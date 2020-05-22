@@ -1,0 +1,354 @@
+/*单banner*/
+div.solution_banner{
+    height: 300px;
+    background: url(../images/solve.png) no-repeat center center;
+    z-index: 1;
+    position: relative;
+}
+div.solution_banner .firstRow{
+    color: #fff;
+    margin-top: 50px;
+}
+div.solution_banner .row h1{
+    font-size: 36px;
+}
+div.solution_banner .row hr{
+    border-top: 3px solid #fe6755;
+    width: 38px;
+}
+div.solution_banner .row h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+div.solution_banner .row div.infoma{
+    font-size: 16px;
+}
+div.solution_banner .row .searchButton{
+    margin-top:40px;
+}
+
+/*方案简介*/
+div.programme_detail{
+    /*height: 330px;*/
+}
+div.programme_detail .phone_programme_img{
+    display: none;
+}
+div.programme_detail .row{
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+div.programme_detail .row h2{
+    font-size: 34px;
+}
+div.programme_detail .row hr{
+    margin-left: 0px;
+    border-top: 3px solid #fe6755;
+    width: 40px;
+}
+div.programme_detail .row .detail_intro{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+div.programme_detail .row .pro_img img{
+    width: 85%;
+    margin-left: 35px;
+}
+
+/*产品特点*/
+div.characteristic{
+    background-color: #f8f8f8;
+}
+div.characteristic .title{
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+div.characteristic .info_list{
+    margin-bottom: 70px;
+}
+div.characteristic .info_list .hvr-bubble-float-bottom img{
+    margin-bottom: 8px;
+    width: 55px;
+    height: 55px;
+}
+div.characteristic .row h2{
+    font-size: 34px;
+}
+div.characteristic .info_list .type_list{
+    border-radius: 8px;
+    height: 260px;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+div.characteristic .row hr{
+    border-top: 3px solid #fe6755;
+    width: 40px;
+}
+div.characteristic .info_list .type_list .pro_intro{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div.characteristic .info_list .type_list h3{
+    font-size: 16px;
+}
+
+/*解决方案*/
+div.solution .type{
+    float: left;
+    margin-right: 5%;
+    cursor: pointer;
+}
+div.solution .type img{
+    height: 60px;
+    margin-bottom: 20px;
+}
+div.solution .type span{
+
+}
+div.solution .container .img_title{
+    margin-bottom: 40px;
+}
+div.solution .container .row .info{
+    font-family: 微软雅黑;
+    font-size: 24px;
+    text-align: left;
+    height: 70px;
+    display: none;
+    color: #fc6256;
+}
+div.solution .type img.active{
+
+}
+div.solution .type span.active{
+    color: #fc6256;
+}
+div.solution .container .introInfo .active{
+    display: block;
+}
+div.solution .container .introInfo .img{
+    padding-right: 60px;
+    text-align: right;
+}
+div.solution .container .introInfo .img img{
+    width: 4%;
+}
+
+/*成功案例*/
+div.exam_sucess{
+    min-height: 600px;
+}
+div.exam_sucess .tabbable{
+    margin-bottom: 80px;
+}
+div.exam_sucess .tab-content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+div.exam_sucess .tab-content h2{
+    text-align: left;
+    font-size: 20px;
+}
+div.exam_sucess .tabbable .nav-tabs li a{
+    font-size: 18px;
+}
+div.exam_sucess .tab-content .pro_intro{
+    padding: 30px;
+    text-align: left;
+    font-size: 15px;
+}
+div.exam_sucess .tab-content .pro_intro div{
+    /*text-indent: 2em;*/
+    line-height: 30px;
+}
+div.exam_sucess .tab-content .pro_intro h4{
+    font-size: 16px;
+}
+div.exam_sucess .tab-content .components h2.pro_title{
+    margin-bottom: 40px;
+}
+div.exam_sucess .tab-content .components img{
+    width: 70%;
+}
+div.exam_sucess .title{
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+div.exam_sucess .title h2{
+    font-size: 34px;
+}
+div.exam_sucess .title hr{
+    border-top: 3px solid #fe6755;
+    width: 40px;
+}
+
+/********************组件--css***************************/
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.gallery-top {
+    height: 400px;
+    width: 100%;
+}
+.gallery-thumbs {
+    height: 140px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+}
+/*********************end**************************/
+div.gallery-top .infomation{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 288px;
+
+}
+div.gallery-top span.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+div.gallery-top .intro_{
+    font-size: 16px;
+    margin-top: 12px;
+    color: #ffffff;
+}
+div.exam_sucess .components{
+    margin-bottom: 240px;
+}
+
+/*平台*/
+div.platform{
+    height: 320px;
+    background: url(../images/platform_bg.png);
+}
+div.platform .container h2{
+    font-family: 微软雅黑;
+    font-size: 34px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+div.platform .container .info{
+    font-family: 微软雅黑;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.exam_sucess .components {
+        margin-bottom: 80px;
+    }
+    div.solution_banner{
+        height: 200px;
+        background: url(../images/solution_phone_bg.png) no-repeat center center;
+    }
+    div.solution_banner .row div.infoma {
+        padding-left: 60px;
+        font-size: 12px;
+        padding-right: 60px;
+    }
+    div.solution_banner .row h1 {
+        font-size: 18px;
+    }
+    div.solution_banner .row h2 {
+        font-size: 18px;
+    }
+    div.programme_detail .container h2{
+        font-size: 18px;
+    }
+    div.programme_detail .row .detail_intro {
+        font-size: 15px;
+    }
+    div.characteristic .container h2{
+        font-size: 18px;
+    }
+    div.exam_sucess .container h2{
+        font-size: 18px;
+    }
+    div.characteristic .info_list .type_list h3 {
+        font-size: 15px;
+    }
+    div.characteristic {
+        height: 910px;
+    }
+    div.programme_detail .col-md-8 h2{
+        text-align: center;
+    }
+    div.programme_detail .col-md-8 hr{
+        margin: auto;
+    }
+    div.programme_detail .phone_programme_img{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+    div.programme_detail .pc_programme_img{
+        display: none;
+    }
+    div.programme_detail .row .pro_img img {
+        width: 185px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div.characteristic .info_list .type_list {
+        height: 238px;
+    }
+    div.characteristic .info_list {
+         margin-bottom: 0px;
+    }
+    div.exam_sucess .tab-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    div.exam_sucess .tab-content .components img {
+        width: 90%;
+    }
+    div.exam_sucess .tabbable .nav-tabs li a {
+        font-size: 15px;
+    }
+    div.exam_sucess .tab-content .pro_intro {
+        font-size: 13px;
+    }
+    div.characteristic .info_list .hvr-bubble-float-bottom img {
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    div.solution_banner .firstRow {
+        margin-top: 34px;
+    }
+    div.programme_detail .row {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    div.characteristic .info_list .type_list .pro_intro {
+        padding-left: 61px;
+        padding-right: 61px;
+        height: 110px;
+    }
+}
+

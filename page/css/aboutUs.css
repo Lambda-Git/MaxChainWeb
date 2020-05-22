@@ -1,0 +1,198 @@
+/*关于我们*/
+div.aboutus{
+    height: 730px
+}
+div.aboutus .img_phone{
+    display: none;
+}
+.aboutus .img_txts{
+    position: absolute;
+}
+.aboutus .img_txts .img img{
+	width: 800px;
+}
+.aboutus .img_txts .img{
+    width:740px;
+    height:460px;
+    float: left;
+    position: absolute;
+}
+.aboutus .img_txts .txts{
+    margin-top: 40px;
+    background-color: #ffffff;
+    width: 600px;height: 380px;
+    float: left;
+    position: absolute;
+    margin-left:545px;
+    box-shadow: 0 0 30px #c1c1c1;
+}
+.aboutus .img_txts .txts .title{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.aboutus .img_txts .txts .introInfo{
+    margin-top: 75px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aboutus .img_txts .txts .introInfo .row{
+    margin-top: 20px;
+}
+.aboutus .img_txts .txts .introInfo .row p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.aboutus .img_txts .txts .big_squre{
+    width: 30px;
+    height: 30px;
+    background-color: #fed3d0;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.aboutus .img_txts .txts .small_squre{
+    width: 15px;
+    height: 15px;
+    background-color: #fb2315;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.aboutus .img_txts .txts .low_squre{
+    width: 15px;
+    height: 15px;
+    background-color: #fd918a;
+    float: right;
+    margin-right: 20px;
+    margin-top: 60px;
+    position: relative;
+}
+
+/*map*/
+.map .welfare .container li{
+    list-style-type:none;
+    float: left;
+    margin-left: 100px;
+}
+.map .welfare .join{
+    margin-bottom: 40px;
+    color: black;
+}
+.map .welfare .container span{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: black;
+}
+.map .welfare{
+    height: 363px;
+    /*background:url(../images/welfare.png) no-repeat center top /auto 300px;*/
+}
+.map .welfare img{
+    width: 40%;
+}
+.map .welfare .yuan{
+    background-color: #ffff;
+    border-radius: 82px;
+    width: 80px;
+    height: 80px;
+    margin: 25px auto;
+    border: 4px solid #cbbbad;
+    text-align: center;
+    line-height: 66px;
+}
+.map .welfare ul{
+    margin-left: -60px;
+}
+.map .welfare .title_{
+    text-align: center;
+}
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.aboutus {
+        height: 645px;
+    }
+    div.aboutus .img_txts{
+        display: none;
+    }
+    div.aboutus .img_phone{
+        display: block;
+    }
+    .aboutus .img_txts .txts {
+         margin-top: 0px;
+        background-color: #ffffff;
+        width: 300px;
+        height: 510px;
+        border: 0px solid red;
+        float: left;
+        position: absolute;
+        margin-left: 0px;
+        box-shadow: 0 0 30px #c1c1c1;
+    }
+    .aboutus .img_txts .txts .low_squre{
+        margin-top: 25px;
+    }
+    .aboutus .img_txts .txts .introInfo .row p {
+        font-size: 15px;
+    }
+    .aboutus .img_txts .intro{
+        font-size: 13px;
+    }
+    div.aboutus .img_phone .txts{
+        margin-top: 40px;
+        background-color: #ffffff;
+        height: 530px;
+        box-shadow: 0 0 30px #c1c1c1;
+    }
+    div.aboutus .img_phone .big_squre{
+        width: 30px;
+        height: 30px;
+        background-color: #fed3d0;
+        margin-left: 33px;
+        margin-top: 10px;
+        float: left;
+    }
+    div.aboutus .img_phone .small_squre{
+        width: 15px;
+        height: 15px;
+        background-color: #fb2315;
+        float: left;
+        position: absolute;
+        margin-left: 51px;
+        margin-top: 30px;
+    }
+    div.aboutus .img_phone .introInfo{
+        height: 316px;
+        margin-top: 30px;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.aboutus .img_phone .introInfo p{
+        font-weight: bold;
+        font-size: 13px;
+    }
+    div.aboutus .img_phone .introInfo p .intro{
+        font-size: 14px;
+    }
+    div.aboutus .img_phone .introInfo .first_row{
+    margin-bottom: 30px;
+    }
+    div.aboutus .img_phone .low_squre{
+    width: 15px;
+    height: 15px;
+    background-color: #fd918a;
+    float: right;
+    margin-right: 20px;
+    margin-top: 60px;
+    position: relative;
+}
+}

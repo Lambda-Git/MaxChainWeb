@@ -1,0 +1,208 @@
+/*单banner*/
+div.detailBanner{
+    height: 300px;
+    background:url(../images/probanner_bg.png) no-repeat center center;
+    z-index: 2;
+    position: relative;
+}
+div.detailBanner .programme{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+div.detailBanner .programme h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+div.detailBanner .programme h5{
+    font-size: 19px;
+    margin-top: 20px;
+}
+div.detailBanner .programme hr{
+    margin: auto;
+    border-top: 4px solid #fe6755;
+    width: 40px;
+}
+
+/*产品简介*/
+div.programme_detail{
+    /*height: 330px;*/
+}
+div.programme_detail .phoneRow{
+    display: none;
+}
+div.programme_detail .row{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+div.programme_detail .row hr{
+    margin-left: 0px;
+    border-top: 3px solid #fe6755;
+    width: 40px;
+}
+div.programme_detail .row .detail_intro{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+div.programme_detail .row .pro_img img{
+    width: 318px;
+    margin-top: 88px;
+}
+
+/*div.maxchain 平台介绍+产品*/
+div.infoList .left div{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #828a99;
+}
+div.infoList .left img{
+    width: 40px;
+    height: 40px;
+}
+div.infoList .left .col-md-10{
+    text-align: left;
+}
+div.infoList .left .row{
+    margin-bottom: 40px;
+}
+div.infoList .right img{
+
+}
+div.maxchainIntro .commons{
+    margin-top: 30px;
+}
+div.maxchainIntro .commons hr{
+    margin-left: 0px;
+    border-top: 3px solid #fe6755;
+    width: 40px;
+}
+div.maxchainIntro .commons .common_title{
+    text-align: left;
+}
+div.maxchainIntro .product .title{
+    text-align:center;
+    font-family: 微软雅黑;
+    font-size: 34px;
+    color: #0f1833;
+    margin-bottom: 30px;
+}
+div.maxchainIntro .infoList .phone_right{
+    display: none;
+}
+div.maxchainIntro .infoList{
+    margin-bottom: 94px;
+}
+.searchMore .com_but{
+    margin-bottom: 180px;
+}
+div.maxchainIntro .product{
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+div.maxchainIntro .product .info{
+    width: 80%;
+    margin-left: 10%;
+    text-align:center;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #828a99;
+}
+
+
+/*用户体验*/
+div.experience{
+    height: 800px;
+    /*background: url(../images/experience_bg.png) no-repeat;*/
+}
+div.experience .where{
+    background-color: #ffffff;
+    height: 675px;
+    border-radius: 5px;
+}
+div.experience .where .title{
+    font-family: 微软雅黑;
+    font-size: 28px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+div.experience .where img.line_img{
+    margin-bottom: 10px;
+}
+div.experience .where img.commonImg{
+    /*border-radius: 5px;
+    box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.1), 0 -5px 2px 2px rgba(0, 0, 0, 0.1);*/
+    width: 700px;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    /*产品简介*/
+    div.detailBanner{
+        height: 200px;
+        background:url(../images/product_banner_bg.png) no-repeat center center;
+    }
+    div.detailBanner .programme h2 {
+        font-size: 18px;
+    }
+    div.detailBanner .programme h5 {
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    div.infoList .left img {
+        width: 30px;
+        height: 30px;
+    }
+    div.detailBanner .programme {
+        margin-top: 60px;
+    }
+    div.programme_detail .row .detail_intro {
+        font-size: 15px;
+    }
+    div.programme_detail .commons{
+        margin-top: 0px;
+    }
+    div.programme_detail .phoneRow{
+        display: block;
+        margin-bottom: 20px;
+    }
+    div.programme_detail .pc_imgrow{
+        display: none;
+    }
+    div.programme_detail .row .pro_img{
+        text-align: center;
+    }
+    div.programme_detail .row .pro_img img {
+       width: 220px;
+       margin-top: 0px;
+    }
+    div.maxchainIntro .infoList .phone_right{
+        display: block;
+        margin-bottom: 20px;
+    }
+    div.maxchainIntro .infoList {
+        margin-bottom: 36px;
+    }
+    div.maxchainIntro .infoList .phone_right img{
+        width: 190px;
+    }
+    div.maxchainIntro .infoList .right{
+        display: none;
+    }
+    div.experience {
+        height: 400px;
+    }
+    div.experience .where img.line_img {
+        width: 300px;
+    }
+    div.experience .where img.commonImg {
+        width: 300px;
+    }
+    div.experience .where .title {
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+}

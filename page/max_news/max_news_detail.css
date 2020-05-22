@@ -1,0 +1,103 @@
+/*新闻内容详情*/
+div.news_content{
+    background-color: #f9f9f9;
+    z-index: 1;
+    position: relative;
+}
+div.page_list{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+div.news_content .newscontent{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+div.news_content .newscontent .top{
+    border-bottom: 1px solid #f0f0f0;
+}
+div.news_content .newscontent .top h2{
+    margin-top: 95px;
+    font-size: 23px;
+}
+div.news_content .newscontent .top .publish_time{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+div.news_content .newscontent .top hr{
+    border-top: 4px solid #fa0000;
+    width: 60px;
+    margin-bottom: 0px;
+}
+div.news_content .newscontent .img{
+    text-align: center;
+    margin-top: 40px;
+}
+div.news_content .newscontent .info{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 40px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+div.news_content .newscontent .info h4{
+    text-align: center;
+}
+div.news_content .newscontent .info p.two{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/*相关新闻*/
+div.newsList{
+    background-color: #f9f9f9;
+}
+div.newsList .title_ h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 26px;
+}
+div.content img{
+    width: 700px;
+}
+
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.page_list {
+         margin-bottom: 0px;
+    }
+    div.news_content .newscontent .top h2{
+        margin-top: 38px;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 33px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    div.news_content .newscontent .top hr {
+        border-top: 3px solid #fa0000;
+        width: 45px;
+    }
+    div.news_content .newscontent .img {
+        margin-top: 20px;
+    }
+    div.news_content .newscontent .img img{
+        width: 288px;
+    }
+    div.news_content .newscontent .info {
+        font-size: 15px;
+        margin-top: 30px;
+        line-height: 30px;
+        padding-right: 47px;
+        padding-left: 47px;
+    }
+    div.newsList .title_ h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,61 @@
+/*底部--css  版权信息*/
+div.copyrightInfo{
+    background-color: rgb(33, 33, 33);
+    height: 256px
+}
+div.copyrightInfo span.phone_show{
+    display: none;
+}
+div.copyrightInfo hr{
+    border-top: 1px solid #d8190e;
+}
+div.copyrightInfo .Copyright span{
+    color: #ffffff;
+}
+div.QRCode{
+    margin-top: 40px;
+}
+div.QRCode img{
+    height: 100px;
+    width: 100px;
+}
+div.adress_emial{
+    color: #ffffff;
+    margin-top: 20px;
+}
+div.telephone .tle{
+    color: #ffffff;
+}
+div.telephone{
+    margin-top: 40px;
+}
+div.copyrightInfo .adress_emial img{
+    margin-right: 6px;
+    width: 22px;
+    margin-top: -4px;
+}
+/******************移动端-css********************/
+@media (max-width: 768px) {
+    div.copyrightInfo span.phone_show{
+        display: block;
+    }
+    div.copyrightInfo span.pc_show{
+        display: none;
+    }
+    div.copyrightInfo{
+        font-size: 12px;
+        font-family: 微软雅黑;
+    }
+    div.copyrightInfo .adress_emial .col-xs-12{
+        margin-top: 10px;
+    }
+    div.copyrightInfo {
+        height: 320px;
+    }
+    div.copyrightInfo .adress_emial img {
+        margin-top: -8px;
+    }
+    div.adress_emial {
+        margin-top: 10px;
+    }
+}
